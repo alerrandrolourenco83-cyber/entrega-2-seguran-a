@@ -1,0 +1,6 @@
+SHA-256 (sem salt, sem custo):      2,124,028 tentativas/s (1 núcleo)
+Argon2id (m=46MiB, t=2, p=1) :           11.0 tentativas/s (1 núcleo)
+Razão: SHA-256 é ~193,093x mais rápido de atacar.
+
+SHA-256 de 'senha123' (igual para TODO usuário, vulnerável a rainbow table):
+  55a5e9e78207b4df8699d60886fa070079463547b095d1a05bc719bb4e6cd251

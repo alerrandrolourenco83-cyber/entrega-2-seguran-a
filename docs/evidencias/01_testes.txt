@@ -1,0 +1,25 @@
+test_cadastro_ok_e_banco_sem_texto_puro (tests.test_api.ApiTests.test_cadastro_ok_e_banco_sem_texto_puro) ... ok
+test_entrada_nao_json_ou_tipos_errados (tests.test_api.ApiTests.test_entrada_nao_json_ou_tipos_errados) ... ok
+test_login_correto (tests.test_api.ApiTests.test_login_correto) ... ok
+test_login_senha_incorreta (tests.test_api.ApiTests.test_login_senha_incorreta) ... ok
+test_logout_encerra_sessao (tests.test_api.ApiTests.test_logout_encerra_sessao) ... ok
+test_mensagem_igual_para_usuario_inexistente (tests.test_api.ApiTests.test_mensagem_igual_para_usuario_inexistente) ... ok
+test_senha_fraca_rejeitada (tests.test_api.ApiTests.test_senha_fraca_rejeitada) ... ok
+test_sql_injection_no_login_nao_autentica (tests.test_api.ApiTests.test_sql_injection_no_login_nao_autentica) ... ok
+test_usuario_duplicado_case_insensitive (tests.test_api.ApiTests.test_usuario_duplicado_case_insensitive) ... ok
+test_formato_phc_com_parametros (tests.test_security.HashTests.test_formato_phc_com_parametros) ... ok
+test_hash_adulterado_nao_valida (tests.test_security.HashTests.test_hash_adulterado_nao_valida) ... ok
+test_hash_malformado_nao_levanta_excecao (tests.test_security.HashTests.test_hash_malformado_nao_levanta_excecao) ... ok
+test_needs_rehash (tests.test_security.HashTests.test_needs_rehash) ... ok
+test_normalizacao_unicode (tests.test_security.HashTests.test_normalizacao_unicode) ... ok
+test_salt_unico_mesma_senha_hashes_diferentes (tests.test_security.HashTests.test_salt_unico_mesma_senha_hashes_diferentes) ... ok
+test_senha_correta_e_incorreta (tests.test_security.HashTests.test_senha_correta_e_incorreta) ... ok
+test_comum_rejeitada (tests.test_security.PolicyTests.test_comum_rejeitada) ... ok
+test_curta_rejeitada (tests.test_security.PolicyTests.test_curta_rejeitada) ... ok
+test_longa_demais_rejeitada (tests.test_security.PolicyTests.test_longa_demais_rejeitada) ... ok
+test_sem_regra_de_composicao (tests.test_security.PolicyTests.test_sem_regra_de_composicao) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.458s
+
+OK

@@ -1,0 +1,19 @@
+1) CADASTRO: usuário 'maria' com senha em texto puro: 'correta-cavalo-bateria-grampo'
+
+2) O QUE FICA NO BANCO (nunca a senha):
+   {'id': 1, 'username': 'maria', 'password_hash': '$argon2id$v=19$m=47104,t=2,p=1$LVrw/T8/f5xxnSFpciDmzQ$zDMNk2tMCnsofaI1Nc/Qy6lsjkmKMuoS0JfCVC1OslA'}
+
+3) SALT ÚNICO: mesma senha, outro usuário -> hash diferente
+   hashes iguais? False
+
+4) LOGIN CORRETO  -> ACEITO
+   LOGIN INCORRETO -> NEGADO
+   USUÁRIO INEXISTENTE -> NEGADO
+
+5) POLÍTICA DE SENHA:
+            '123' -> rejeitada: A senha deve ter no mínimo 8 caracteres (recomendado: 15 ou mais).
+      'password1' -> rejeitada: Senha muito comum. Escolha outra.
+   'aaaaaaaaaaaa' -> rejeitada: A senha deve ter no máximo 128 caracteres.
+
+6) ADULTERAÇÃO DO HASH no banco -> login deixa de funcionar
+   LOGIN com senha certa e hash adulterado -> NEGADO

@@ -1,0 +1,2 @@
+cryptography>=44.0.0   # Argon2id (KDF) com OpenSSL; biblioteca consolidada
+Flask>=3.0
